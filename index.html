@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagrik Aur Samvidhan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nagrik Aur Samvidhan</h1>
+        <p>Enhancing Constitutional Literacy through Gamification</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#multiplayer">Multiplayer</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Nagrik Aur Samvidhan</h2>
+        <p>This platform aims to simplify the Constitution of India and present it in an engaging format for all ages.</p>
+    </section>
+    <section id="articles">
+        <h2>Simplified Content</h2>
+        <div class="article">
+            <h3>Preamble</h3>
+            <p>The Preamble to the Constitution of India is a brief introductory statement that sets out the guiding purpose and principles of the document.</p>
+        </div>
+        <div class="article">
+            <h3>Fundamental Rights</h3>
+            <p>Fundamental rights are a group of rights that have been recognized by the Supreme Court as requiring a high degree of protection from government encroachment.</p>
+        </div>
+    </section>
+    <section id="games">
+        <h2>Interactive Games</h2>
+        <div class="game">
+            <h3>Spin-the-Wheel Quiz</h3>
+            <button onclick="spinWheel()">Spin the Wheel</button>
+            <div id="wheelResult"></div>
+        </div>
+        <div class="game">
+            <h3>Snakes & Ladders</h3>
+            <button onclick="startGame()">Start Game</button>
+            <div id="gameBoard"></div>
+        </div>
+    </section>
+    <section id="multiplayer">
+        <h2>Multiplayer Options</h2>
+        <p>Join a multiplayer session to learn and play with others!</p>
+        <button onclick="startMultiplayer()">Start Multiplayer</button>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
